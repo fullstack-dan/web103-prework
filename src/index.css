@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('src/assets/fonts/Kanit/Kanit-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'KanitBold';
+    src: url('src/assets/fonts/Kanit/Kanit-Bold.ttf') format('truetype');
+}
+
+html, body {
+    background-color: #333;
+    color: #fff;
+
+    font-size: 16px;
+
+    min-height: 100vh;
+
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    font-family: 'KanitBold', sans-serif;
+    font-size: 2rem;
+    letter-spacing: -5px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
