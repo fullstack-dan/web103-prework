@@ -9,6 +9,11 @@
     src: url('src/assets/fonts/Kanit/Kanit-Bold.ttf') format('truetype');
 }
 
+:root {
+    --page-margins-x: 8rem;
+    --page-margins-y: 2rem;
+}
+
 html, body {
     background-color: #333;
     color: #fff;
@@ -23,7 +28,6 @@ html, body {
 h1 {
     font-family: 'KanitBold', sans-serif;
     font-size: 2rem;
-    letter-spacing: -5px;
 }
 
 h2 {

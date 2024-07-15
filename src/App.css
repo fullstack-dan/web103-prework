@@ -4,9 +4,16 @@
     align-items: center;
 
     height: 100%;
+
 }
 
 #root > * {
     width: 100%;
     max-width: 1920px;
+
+}
+
+main {
+    padding: var(--page-margins-y) var(--page-margins-x);
+    box-sizing: border-box;
 }

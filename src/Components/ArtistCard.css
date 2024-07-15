@@ -1,0 +1,36 @@
+.artist-card {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    gap: 1rem;
+    padding: 1rem;
+
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.artist-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-info div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.artist-links {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.artist-links a {
+    height: 1.5rem;
+}
+
+.artist-links a img {
+    height: 100%;
+    width: auto;
+}
