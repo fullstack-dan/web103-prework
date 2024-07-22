@@ -1,0 +1,28 @@
+.add-artist {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+    width: 100%;
+    /*padding: 2rem;*/
+}
+
+.add-artist form {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    gap: 1rem;
+
+    width: 50%;
+}
+
+.artist form > * {
+    width: 100%;
+}
+
+.edit-controls {
+    display: flex;
+    gap: 1rem;
+    align-self: center;
+}

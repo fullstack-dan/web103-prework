@@ -15,7 +15,7 @@ export default function ShowArtists() {
         }
 
         fetchArtists();
-    })
+    }, []);
 
     return (
         <div id={"show-artists"}>

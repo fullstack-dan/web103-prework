@@ -14,6 +14,12 @@
     --page-margins-y: 2rem;
 }
 
+@media (max-width: 768px) {
+    :root {
+        --page-margins-x: 2rem;
+    }
+}
+
 html, body {
     background-color: #333;
     color: #fff;
@@ -32,4 +38,25 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+}
+
+button {
+    all: unset;
+
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+button:active {
+    background-color: #333;
+    color: #fff;
 }

@@ -1,14 +1,16 @@
 .artist-card {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
+    justify-content: center;
     gap: 1rem;
     padding: 1rem;
 
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
+    min-width: 150px;
+    min-height: 150px;
 }
 
 .artist-info {
@@ -33,4 +35,26 @@
 .artist-links a img {
     height: 100%;
     width: auto;
+}
+
+.artist-card {
+    position: relative;
+    /* Keep existing styles */
+}
+
+.artist-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity to your liking */
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+.artist-info, .artist-links, p {
+    position: relative;
+    z-index: 2;
 }
