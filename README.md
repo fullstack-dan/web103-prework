@@ -40,7 +40,7 @@ Here's a walkthrough of implemented required features:
 Linked here: https://cdn.discordapp.com/attachments/892911282225836102/1265044966770737232/ScreenRecording2024-07-22at4.20.50PM-ezgif.com-speed.gif?ex=66a0146f&is=669ec2ef&hm=1698a67a19fe1f7d5465fd94df44b0660f77de7c800fd366160c9028d55ec5aa&
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
+MacOS native screen recording tool
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
